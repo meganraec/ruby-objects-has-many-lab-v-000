@@ -18,7 +18,7 @@
     new_song = Song.new(name)
     new_song.artist = self
     self.songs << new_song
-    # @@song_count += 1
+    @@song_count += 1
    end
 
    def song_count
