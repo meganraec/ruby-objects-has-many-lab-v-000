@@ -1,6 +1,7 @@
 class Song
   attr_accessor :name, :artist
 
+# Counts all of the songs by a given artist.
   @@song_count = 0
 
   def initialize(name)
