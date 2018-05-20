@@ -19,7 +19,7 @@
     # self.songs << new_song
     # @@song_count += 1
     self.songs << name
-    song.artist = self
+    name.artist = self
     @@song_count += 1
    end
 
