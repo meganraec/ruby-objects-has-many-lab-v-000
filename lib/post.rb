@@ -1,11 +1,11 @@
 class Post
-  attr_accessor :title, :author_name
+  attr_accessor :title, :author
 
     @@post_count = 0
 
   def initialize(title)
     @title = title
-    @author_name = author_name
+    @author = author
     @@post_caount += 1
   end
 end
