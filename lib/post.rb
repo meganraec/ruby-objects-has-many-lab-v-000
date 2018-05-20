@@ -6,7 +6,9 @@ class Post
   def initialize(title)
     @title = title
     @author = author
-    @author_name = self
     @@post_count += 1
   end
+
+  def author_name
+    self.author.name || nil
 end
