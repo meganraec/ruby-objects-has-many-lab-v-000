@@ -15,8 +15,8 @@ class Author
     @@post_count += 1
   end
 
-  def add_post_by_name(post_name)
-    new_post = Pong.new(post_name)
+  def add_post_by_title(post_title)
+    new_post = Post.new(post_title)
     @posts << new_post
     new_post_author = self
   end
