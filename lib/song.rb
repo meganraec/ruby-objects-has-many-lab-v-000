@@ -8,4 +8,7 @@ class Song
     @artist = artist
     @@song_count += 1
   end
+
+  def artist_name
+    self.artist.name ||= nil
 end
