@@ -21,11 +21,11 @@ class Author
     new_post_author = self
   end
 
-  def song_count
-   @@song_count
+  def post_count
+   @@post_count
   end
 
-  def songs
-    @songs
+  def posts
+    @posts
   end
 end
